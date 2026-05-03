@@ -15,9 +15,17 @@ print(filtrar_pares([1,2,3,4,5]))
 
 ## Organización de la entrega:
 Se entregaron un link al repositorio en GitHub y dos notebooks de Colab.
+
 En cuanto a la división en 2 notebooks, esto se hizo para evitar problemas con Git. Y cada uno de ellos corresponde a lo siguiente:
+
+
 **1er notebook: ESTRUCTURA + INIT**
+
 El primer notebook busca estructurar el proyecto en el Colab con sus debidas carpetas y funciones. Luego, este proyecto es subido a GitHub con el comando de inicialización `(!git init)`.
+
+
 **2do notebook: REPOSITORIO CLONADO**
+
 El segundo notebook va a clonar el repositorio de GitHub desde Colab y efectuar y subir cambios desde este ultimo.
+
 --> Se precisan hacer estos últimos pasos en otro Colab a parte para evitar problemas con Git. Porque, de lo contrario, tendría un repositorio dentro de otro, lo que no me permitiría ejecutar el notebook o realizar cambios.
